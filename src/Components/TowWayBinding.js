@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+// Two-way binding là ràng buộc dữ liệu 2 chiều, điều này thường được nhắc tới khi các bạn làm việc với biểu mẫu (form) trong các lib/framework front-end. Trong video này chúng ta sẽ cùng nhau đi qua các 
+// ví dụ để các bạn có thể ứng dụng được useState() nhé.
+
 // const gifts = [
 //     'CPU 19',
 //     'RAM 32 RGB',
@@ -65,3 +68,6 @@ function TwoWayBinding() {
 }
 
 export default TwoWayBinding;
+
+// React js : one-way binding ràng buộc 1 chiều
+//  Vue js Two-way binding

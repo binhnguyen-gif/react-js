@@ -27,7 +27,7 @@ function Ref() {
     <div>
       <h1 ref={h1Ref}>{count}</h1>
       <button onClick={() => handleStart()}>Start</button>
-      <button onClick={() => handleStop()}>Start</button>
+      <button onClick={() => handleStop()}>Stop</button>
     </div>
   );
 }
