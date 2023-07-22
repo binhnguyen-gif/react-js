@@ -5,7 +5,7 @@ function Preview() {
 
   useEffect(() => {
     return () => {
-      avatar && URL.revokeObjectURL(avatar.preview);
+      avatar && URL.revokeObjectURL(avatar.preview);//xóa preview
     };
   }, [avatar]);
 
@@ -24,5 +24,5 @@ function Preview() {
     </div>
   );
 }
-
+// multiple
 export default Preview;

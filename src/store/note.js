@@ -1,0 +1,1 @@
+// store : kho - lưu trữ (reducer, action...)

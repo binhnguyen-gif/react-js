@@ -3,7 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { ThemeProvider } from "./Components/ThemeContext";
+// import { ThemeProvider } from "./Components/ThemeContext";
+import { StoreProvider } from "./store";
 
 // Fake comment
 function emitComment(id) {
@@ -23,9 +24,12 @@ emitComment(3);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ThemeProvider>
+    {/* <ThemeProvider>
       <App />
-    </ThemeProvider>
+    </ThemeProvider> */}
+    <StoreProvider>
+      <App />
+    </StoreProvider>
   </React.StrictMode>
 );
 

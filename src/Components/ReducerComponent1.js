@@ -60,7 +60,7 @@ const reducer = (state, action) => {
   }
   return newState;
 };
-
+// 4. Dispath
 function ReducerComponent1() {
   const [state, dispatch] = useReducer(reducer, initState);
   const { job, jobs } = state;

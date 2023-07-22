@@ -25,7 +25,7 @@ function Effect() {
     }
     window.addEventListener('scroll', handleScroll)
 
-    // Cleanup function gọi trước khi component bị unmount
+    // Cleanup function gọi trước khi component bị unmount(return ra một hàm gọi là cleanup function)
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }

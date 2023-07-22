@@ -9,7 +9,7 @@ function doSomething() {
 // Function kiểu này sẽ được gán vào một biến và nó chỉ sẽ chạy khi runtime nếu biến đó được gọi
 // Không áp dụng Hoisting.
 
-run = function() {
+var run = function() {
     console.log('run');
 }
 // Arrow Function (ES6)
@@ -28,7 +28,7 @@ let run3 = (a,b) => {
 // có tham số và chỉ có 1 dòng lệnh
 let run4 = (a,b) => a + b;
 // chỉ có 1 tham số và chỉ có 1 dòng lệnh
-let run = a => console.log(a);
+let run5 = a => console.log(a);
 // + Không áp dụng Hoisting.
 
 // + Không có context (trỏ this) cho riêng nó, không nên sử arrow function như là một object method.

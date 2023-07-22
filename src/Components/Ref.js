@@ -7,6 +7,7 @@ function Ref() {
   const h1Ref = useRef();
 
   useEffect(() => {
+    // lấy tọa đồ của element
     const rect = h1Ref.current.getBoundingClientRect()
     console.log(rect)
   }, [count]);

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 // mount unmout
-
+// useEffect with fake Chat App
 const lessons = [
   {
     id: 1,

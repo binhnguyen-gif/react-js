@@ -3,7 +3,6 @@ import '../App.css';
 import { ThemeContext } from './ThemeContext';
 
 
-
 function Paragraph () {
     const context = useContext(ThemeContext)
     console.log(context)
